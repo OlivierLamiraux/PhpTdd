@@ -1,11 +1,10 @@
 <?php
 namespace Afro;
 
-class MaClass 
+class MaClass
 {
-	public function hello()
-	{
-		return "hello";
-	}
+    public function hello()
+    {
+        return "hello";
+    }
 }
-?>

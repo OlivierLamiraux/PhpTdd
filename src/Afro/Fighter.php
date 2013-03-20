@@ -1,10 +1,9 @@
 <?php
 namespace Afro;
 
-class Fighter 
+class Fighter
 {
-	public function attack($defender)
-	{
-	}
+    public function attack($defender)
+    {
+    }
 }
-?>
