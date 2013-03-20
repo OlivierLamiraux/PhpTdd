@@ -1,0 +1,9 @@
+{
+	"minimum-stability": "dev",
+	"autoload": {
+        "psr-0": {"Afro": "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "3.8.*@dev"
+    }
+}
