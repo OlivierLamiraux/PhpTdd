@@ -5,6 +5,7 @@
     },
     "require": {
         "phpunit/phpunit": "3.8.*@dev",
-		"behat/behat": "2.4.*@dev"
+		"behat/behat": "2.4.*@dev",
+		"squizlabs/php_codesniffer": "1.*"
     }
 }

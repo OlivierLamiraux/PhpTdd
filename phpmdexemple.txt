@@ -1,0 +1,1 @@
+php tools/phpmd.phar test/ html codesize,naming,design,unusedcode
