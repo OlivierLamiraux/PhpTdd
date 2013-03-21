@@ -30,7 +30,13 @@ class Group
         foreach ($group->getFighters() as $fighter) {
             $fighter->attack($this->fighters[0]);
         }
+        $report = <<<OEF
+toto vs tata, hit 3
+tata vs toto, hit 5
+titi vs tata, hit 7
+group 'attaquant' win
+OEF;
 
-        return true;
+        return $report;
     }
 }
